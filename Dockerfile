@@ -1,3 +1,3 @@
 FROM tutum/buildstep
 EXPOSE 80
-CMD ["/start", "web"]
+CMD ["node", "index.js"]
